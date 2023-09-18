@@ -1,65 +1,54 @@
 "use strict";
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/index";
-exports.ids = ["pages/index"];
+exports.id = 405;
+exports.ids = [405];
 exports.modules = {
 
-/***/ "./components/Card.js":
-/*!****************************!*\
-  !*** ./components/Card.js ***!
-  \****************************/
+/***/ 3678:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst placeholderImg = \"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDsfRCwQvpsd4O5b6IK9evG9H1PTxZLoI6ew5iVnlz3ftQjMBQ\";\nconst Card = ({ Title , Poster , Year , imdbID  })=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"card\",\n        style: {\n            marginBottom: \"10px\"\n        },\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"card-body d-flex justify-content-between\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"d-flex align-items-start\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        href: `https://www.imdb.com/title/${imdbID}`,\n                        target: \"_blank\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                className: \"mr-2 rounded\",\n                                src: Poster === \"N/A\" ? placeholderImg : Poster,\n                                alt: \"placeholder\",\n                                width: \"100\",\n                                height: \"130\"\n                            }, void 0, false, {\n                                fileName: \"/Users/oseearivony/Projet/next-movie-omdb/components/Card.js\",\n                                lineNumber: 9,\n                                columnNumber: 13\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                className: \"title\",\n                                style: {\n                                    fontSize: \"20px\"\n                                },\n                                children: Title\n                            }, void 0, false, {\n                                fileName: \"/Users/oseearivony/Projet/next-movie-omdb/components/Card.js\",\n                                lineNumber: 17,\n                                columnNumber: 13\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/oseearivony/Projet/next-movie-omdb/components/Card.js\",\n                        lineNumber: 8,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/oseearivony/Projet/next-movie-omdb/components/Card.js\",\n                    lineNumber: 7,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                    style: {\n                        fontSize: \"20px\",\n                        color: \"#9c88ff\"\n                    },\n                    children: Year\n                }, void 0, false, {\n                    fileName: \"/Users/oseearivony/Projet/next-movie-omdb/components/Card.js\",\n                    lineNumber: 22,\n                    columnNumber: 9\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/oseearivony/Projet/next-movie-omdb/components/Card.js\",\n            lineNumber: 6,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/oseearivony/Projet/next-movie-omdb/components/Card.js\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Card);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0NhcmQuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBLEtBQUssQ0FBQ0EsY0FBYyxHQUNsQixDQUE0RztBQUM5RyxLQUFLLENBQUNDLElBQUksSUFBSSxDQUFDLENBQUNDLEtBQUssR0FBRUMsTUFBTSxHQUFFQyxJQUFJLEdBQUVDLE1BQU0sRUFBQyxDQUFDLEdBQUssQ0FBQztJQUNqRCxNQUFNLDZFQUNIQyxDQUFHO1FBQUNDLFNBQVMsRUFBQyxDQUFNO1FBQUNDLEtBQUssRUFBRSxDQUFDO1lBQUNDLFlBQVksRUFBRSxDQUFNO1FBQUMsQ0FBQzs4RkFDbERILENBQUc7WUFBQ0MsU0FBUyxFQUFDLENBQTBDOzs0RkFDdERELENBQUc7b0JBQUNDLFNBQVMsRUFBQyxDQUEwQjswR0FDdENHLENBQUM7d0JBQUNDLElBQUksR0FBRywyQkFBMkIsRUFBRU4sTUFBTTt3QkFBSU8sTUFBTSxFQUFDLENBQVE7O3dHQUM3REMsQ0FBRztnQ0FDRk4sU0FBUyxFQUFDLENBQWM7Z0NBQ3hCTyxHQUFHLEVBQUVYLE1BQU0sS0FBSyxDQUFLLE9BQUdILGNBQWMsR0FBR0csTUFBTTtnQ0FDL0NZLEdBQUcsRUFBQyxDQUFhO2dDQUNqQkMsS0FBSyxFQUFDLENBQUs7Z0NBQ1hDLE1BQU0sRUFBQyxDQUFLOzs7Ozs7d0dBR2JDLENBQUk7Z0NBQUNYLFNBQVMsRUFBQyxDQUFPO2dDQUFDQyxLQUFLLEVBQUUsQ0FBQztvQ0FBQ1csUUFBUSxFQUFFLENBQU07Z0NBQUMsQ0FBQzswQ0FDaERqQixLQUFLOzs7Ozs7Ozs7Ozs7Ozs7Ozs0RkFJWGtCLENBQUM7b0JBQUNaLEtBQUssRUFBRSxDQUFDO3dCQUFDVyxRQUFRLEVBQUUsQ0FBTTt3QkFBRUUsS0FBSyxFQUFFLENBQVM7b0JBQUMsQ0FBQzs4QkFBR2pCLElBQUk7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBSS9ELENBQUM7QUFDRCxpRUFBZUgsSUFBSSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbmV4dC1tb3ZpZS1vbWRiLy4vY29tcG9uZW50cy9DYXJkLmpzP2Q2MjMiXSwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgcGxhY2Vob2xkZXJJbWcgPVxuICBcImh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuJTNBQU5kOUdjUURzZlJDd1F2cHNkNE81YjZJSzlldkc5SDFQVHhaTG9JNmV3NWlWbmx6M2Z0UWpNQlFcIjtcbmNvbnN0IENhcmQgPSAoeyBUaXRsZSwgUG9zdGVyLCBZZWFyLCBpbWRiSUQgfSkgPT4ge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FyZFwiIHN0eWxlPXt7IG1hcmdpbkJvdHRvbTogXCIxMHB4XCIgfX0+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNhcmQtYm9keSBkLWZsZXgganVzdGlmeS1jb250ZW50LWJldHdlZW5cIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkLWZsZXggYWxpZ24taXRlbXMtc3RhcnRcIj5cbiAgICAgICAgICA8YSBocmVmPXtgaHR0cHM6Ly93d3cuaW1kYi5jb20vdGl0bGUvJHtpbWRiSUR9YH0gdGFyZ2V0PVwiX2JsYW5rXCI+XG4gICAgICAgICAgICA8aW1nXG4gICAgICAgICAgICAgIGNsYXNzTmFtZT1cIm1yLTIgcm91bmRlZFwiXG4gICAgICAgICAgICAgIHNyYz17UG9zdGVyID09PSBcIk4vQVwiID8gcGxhY2Vob2xkZXJJbWcgOiBQb3N0ZXJ9XG4gICAgICAgICAgICAgIGFsdD1cInBsYWNlaG9sZGVyXCJcbiAgICAgICAgICAgICAgd2lkdGg9XCIxMDBcIlxuICAgICAgICAgICAgICBoZWlnaHQ9XCIxMzBcIlxuICAgICAgICAgICAgLz5cblxuICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGl0bGVcIiBzdHlsZT17eyBmb250U2l6ZTogXCIyMHB4XCIgfX0+XG4gICAgICAgICAgICAgIHtUaXRsZX1cbiAgICAgICAgICAgIDwvc3Bhbj5cbiAgICAgICAgICA8L2E+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogXCIyMHB4XCIsIGNvbG9yOiBcIiM5Yzg4ZmZcIiB9fT57WWVhcn08L3A+XG4gICAgICA8L2Rpdj5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5leHBvcnQgZGVmYXVsdCBDYXJkO1xuIl0sIm5hbWVzIjpbInBsYWNlaG9sZGVySW1nIiwiQ2FyZCIsIlRpdGxlIiwiUG9zdGVyIiwiWWVhciIsImltZGJJRCIsImRpdiIsImNsYXNzTmFtZSIsInN0eWxlIiwibWFyZ2luQm90dG9tIiwiYSIsImhyZWYiLCJ0YXJnZXQiLCJpbWciLCJzcmMiLCJhbHQiLCJ3aWR0aCIsImhlaWdodCIsInNwYW4iLCJmb250U2l6ZSIsInAiLCJjb2xvciJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/Card.js\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_List__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7782);
+
+
+function Home({ results  }) {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_List__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
+            results: results
+        })
+    });
+}
+Home.getInitialProps = async ({ req , res , match , history , location , ...ctx })=>{
+    const search = ctx?.query?.query ?? "";
+    const response = await fetch(`http://www.omdbapi.com/?apikey=42b5a54d&s=harry+potter`);
+    const data = await response.json();
+    const results = data.Search ?? [];
+    return {
+        results
+    };
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
+
 
 /***/ }),
 
-/***/ "./components/List.js":
-/*!****************************!*\
-  !*** ./components/List.js ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Card */ \"./components/Card.js\");\n\n\n\nconst List = (props)=>{\n    if (!props.results.length) return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n        children: \"No Results :(\"\n    }, void 0, false, {\n        fileName: \"/Users/oseearivony/Projet/next-movie-omdb/components/List.js\",\n        lineNumber: 5,\n        columnNumber: 37\n    }, undefined);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        style: {\n            height: \"calc(100vh - 180px)\",\n            overflow: \"scroll\"\n        },\n        children: props.results && props.results.map((result)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Card__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                ...result\n            }, result.imdbID, false, {\n                fileName: \"/Users/oseearivony/Projet/next-movie-omdb/components/List.js\",\n                lineNumber: 9,\n                columnNumber: 39\n            }, undefined)\n        )\n    }, void 0, false, {\n        fileName: \"/Users/oseearivony/Projet/next-movie-omdb/components/List.js\",\n        lineNumber: 7,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (List);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0xpc3QuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFnQztBQUNLO0FBRXJDLEtBQUssQ0FBQ0UsSUFBSSxJQUFJQyxLQUFLLEdBQUssQ0FBQztJQUN2QixFQUFFLEdBQUdBLEtBQUssQ0FBQ0MsT0FBTyxDQUFDQyxNQUFNLEVBQUUsTUFBTSw2RUFBRUMsQ0FBQztrQkFBQyxDQUFhOzs7Ozs7SUFDbEQsTUFBTSw2RUFDSEMsQ0FBRztRQUFDQyxLQUFLLEVBQUUsQ0FBQztZQUFDQyxNQUFNLEVBQUUsQ0FBcUI7WUFBRUMsUUFBUSxFQUFFLENBQVE7UUFBQyxDQUFDO2tCQUM5RFAsS0FBSyxDQUFDQyxPQUFPLElBQ1pELEtBQUssQ0FBQ0MsT0FBTyxDQUFDTyxHQUFHLEVBQUVDLE1BQU0sK0VBQU1YLHdEQUFJO21CQUF5QlcsTUFBTTtlQUF6QkEsTUFBTSxDQUFDQyxNQUFNOzs7Ozs7Ozs7OztBQUc5RCxDQUFDO0FBRUQsaUVBQWVYLElBQUksRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL25leHQtbW92aWUtb21kYi8uL2NvbXBvbmVudHMvTGlzdC5qcz8yMDA1Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEZyYWdtZW50IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgQ2FyZCBmcm9tIFwiLi4vY29tcG9uZW50cy9DYXJkXCI7XG5cbmNvbnN0IExpc3QgPSAocHJvcHMpID0+IHtcbiAgaWYgKCFwcm9wcy5yZXN1bHRzLmxlbmd0aCkgcmV0dXJuIDxwPk5vIFJlc3VsdHMgOig8L3A+O1xuICByZXR1cm4gKFxuICAgIDxkaXYgc3R5bGU9e3sgaGVpZ2h0OiBcImNhbGMoMTAwdmggLSAxODBweClcIiwgb3ZlcmZsb3c6IFwic2Nyb2xsXCIgfX0+XG4gICAgICB7cHJvcHMucmVzdWx0cyAmJlxuICAgICAgICBwcm9wcy5yZXN1bHRzLm1hcCgocmVzdWx0KSA9PiA8Q2FyZCBrZXk9e3Jlc3VsdC5pbWRiSUR9IHsuLi5yZXN1bHR9IC8+KX1cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IExpc3Q7XG4iXSwibmFtZXMiOlsiRnJhZ21lbnQiLCJDYXJkIiwiTGlzdCIsInByb3BzIiwicmVzdWx0cyIsImxlbmd0aCIsInAiLCJkaXYiLCJzdHlsZSIsImhlaWdodCIsIm92ZXJmbG93IiwibWFwIiwicmVzdWx0IiwiaW1kYklEIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/List.js\n");
-
-/***/ }),
-
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_List__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/List */ \"./components/List.js\");\n\n\nfunction Home({ results  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_List__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n            results: results\n        }, void 0, false, {\n            fileName: \"/Users/oseearivony/Projet/next-movie-omdb/pages/index.js\",\n            lineNumber: 6,\n            columnNumber: 7\n        }, this)\n    }, void 0, false);\n}\nHome.getInitialProps = async ({ req , res , match , history , location , ...ctx })=>{\n    var ref;\n    var ref1;\n    const search = (ref1 = ctx === null || ctx === void 0 ? void 0 : (ref = ctx.query) === null || ref === void 0 ? void 0 : ref.query) !== null && ref1 !== void 0 ? ref1 : \"\";\n    const response = await fetch(`http://www.omdbapi.com/?apikey=42b5a54d&s=harry+potter`);\n    const data = await response.json();\n    var _Search;\n    const results = (_Search = data.Search) !== null && _Search !== void 0 ? _Search : [];\n    return {\n        results\n    };\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUFxQztTQUU1QkMsSUFBSSxDQUFDLENBQUMsQ0FBQ0MsT0FBTyxFQUFDLENBQUMsRUFBRSxDQUFDO0lBQzFCLE1BQU07OEZBRURGLHdEQUFJO1lBQUNFLE9BQU8sRUFBRUEsT0FBTzs7Ozs7OztBQUc1QixDQUFDO0FBRURELElBQUksQ0FBQ0UsZUFBZSxVQUFVLENBQUMsQ0FDN0JDLEdBQUcsR0FDSEMsR0FBRyxHQUNIQyxLQUFLLEdBQ0xDLE9BQU8sR0FDUEMsUUFBUSxNQUNMQyxHQUFHLENBQ1IsQ0FBQyxHQUFLLENBQUM7UUFDVUEsR0FBVTtRQUFWQSxJQUFpQjtJQUFoQyxLQUFLLENBQUNDLE1BQU0sSUFBR0QsSUFBaUIsR0FBakJBLEdBQUcsYUFBSEEsR0FBRyxjQUFIQSxJQUFJLENBQUpBLENBQVUsSUFBVkEsR0FBVSxHQUFWQSxHQUFHLENBQUVFLEtBQUssY0FBVkYsR0FBVSxjQUFWQSxJQUFJLENBQUpBLENBQVUsR0FBVkEsR0FBVSxDQUFFRSxLQUFLLGNBQWpCRixJQUFpQixjQUFqQkEsSUFBaUIsR0FBSSxDQUFFO0lBQ3RDLEtBQUssQ0FBQ0csUUFBUSxHQUFHLEtBQUssQ0FBQ0MsS0FBSyxFQUN6QixzREFBc0Q7SUFFekQsS0FBSyxDQUFDQyxJQUFJLEdBQUcsS0FBSyxDQUFDRixRQUFRLENBQUNHLElBQUk7UUFDaEJELE9BQVc7SUFBM0IsS0FBSyxDQUFDWixPQUFPLElBQUdZLE9BQVcsR0FBWEEsSUFBSSxDQUFDRSxNQUFNLGNBQVhGLE9BQVcsY0FBWEEsT0FBVyxHQUFJLENBQUMsQ0FBQztJQUNqQyxNQUFNLENBQUMsQ0FBQztRQUNOWixPQUFPO0lBQ1QsQ0FBQztBQUNILENBQUMsQ0FBQztBQUVGLGlFQUFlRCxJQUFJLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXh0LW1vdmllLW9tZGIvLi9wYWdlcy9pbmRleC5qcz9iZWU3Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaXN0IGZyb20gXCIuLi9jb21wb25lbnRzL0xpc3RcIjtcblxuZnVuY3Rpb24gSG9tZSh7IHJlc3VsdHMgfSkge1xuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8TGlzdCByZXN1bHRzPXtyZXN1bHRzfSAvPlxuICAgIDwvPlxuICApO1xufVxuXG5Ib21lLmdldEluaXRpYWxQcm9wcyA9IGFzeW5jICh7XG4gIHJlcSxcbiAgcmVzLFxuICBtYXRjaCxcbiAgaGlzdG9yeSxcbiAgbG9jYXRpb24sXG4gIC4uLmN0eFxufSkgPT4ge1xuICBjb25zdCBzZWFyY2ggPSBjdHg/LnF1ZXJ5Py5xdWVyeSA/PyBcIlwiO1xuICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKFxuICAgIGBodHRwOi8vd3d3Lm9tZGJhcGkuY29tLz9hcGlrZXk9NDJiNWE1NGQmcz1oYXJyeStwb3R0ZXJgXG4gICk7XG4gIGNvbnN0IGRhdGEgPSBhd2FpdCByZXNwb25zZS5qc29uKCk7XG4gIGNvbnN0IHJlc3VsdHMgPSBkYXRhLlNlYXJjaCA/PyBbXTtcbiAgcmV0dXJuIHtcbiAgICByZXN1bHRzLFxuICB9O1xufTtcblxuZXhwb3J0IGRlZmF1bHQgSG9tZTtcbiJdLCJuYW1lcyI6WyJMaXN0IiwiSG9tZSIsInJlc3VsdHMiLCJnZXRJbml0aWFsUHJvcHMiLCJyZXEiLCJyZXMiLCJtYXRjaCIsImhpc3RvcnkiLCJsb2NhdGlvbiIsImN0eCIsInNlYXJjaCIsInF1ZXJ5IiwicmVzcG9uc2UiLCJmZXRjaCIsImRhdGEiLCJqc29uIiwiU2VhcmNoIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/index.js\n");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 6689:
 /***/ ((module) => {
 
 module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ })
 
@@ -70,7 +59,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/index.js"));
+var __webpack_exports__ = __webpack_require__.X(0, [782], () => (__webpack_exec__(3678)));
 module.exports = __webpack_exports__;
 
 })();
