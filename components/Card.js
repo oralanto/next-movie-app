@@ -1,6 +1,7 @@
-const placeholderImg =
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDsfRCwQvpsd4O5b6IK9evG9H1PTxZLoI6ew5iVnlz3ftQjMBQ";
 const Card = ({ Title, Poster, Year, imdbID }) => {
+  const placeholderImg =
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDsfRCwQvpsd4O5b6IK9evG9H1PTxZLoI6ew5iVnlz3ftQjMBQ";
+
   return (
     <div className="card" style={{ marginBottom: "10px" }}>
       <div className="card-body d-flex justify-content-between">
@@ -24,4 +25,5 @@ const Card = ({ Title, Poster, Year, imdbID }) => {
     </div>
   );
 };
+
 export default Card;

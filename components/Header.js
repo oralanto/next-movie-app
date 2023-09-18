@@ -2,21 +2,22 @@ import Link from "next/link";
 import { Context } from "../lib/Context";
 import { useContext } from "react";
 
-const Links = ({ children, query, name }) => {
-  return query !== "" ? (
-    <Link href={{ pathname: `/${name}`, query: { query: query } }}>
-      {children}
-    </Link>
-  ) : (
-    <Link href={{ pathname: `/${name}` }}>{children}</Link>
-  );
-};
-
 const Header = () => {
   const {
     setActive,
     state: { links, active, query },
   } = useContext(Context);
+
+  const Links = ({ children, query, name }) => {
+    return query !== "" ? (
+      <Link href={{ pathname: `/${name}`, query: { query: query } }}>
+        {children}
+      </Link>
+    ) : (
+      <Link href={{ pathname: `/${name}` }}>{children}</Link>
+    );
+  };
+
   return (
     <ul className="nav nav-pills nav-fill" style={{ marginBottom: "20px" }}>
       {links.map((link) => {
@@ -41,4 +42,5 @@ const Header = () => {
     </ul>
   );
 };
+
 export default Header;
